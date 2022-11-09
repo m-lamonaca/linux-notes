@@ -58,3 +58,4 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Coreutils: coreutils.md
+  - Terminal Keybinds: terminal-keybinds.md
