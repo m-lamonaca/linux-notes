@@ -1,0 +1,60 @@
+site_name: Linux Notes
+repo_url: https://github.com/m-lamonaca/linux-notes
+repo_name: GitHub
+edit_uri: /blob/main/docs
+remote_branch: gh-pages
+remote_name: origin
+site_url: http://m-lamonaca.github.io/linux-notes
+site_author: Marcello Lamonaca
+copyright: MIT
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: en
+  icon:
+    logo: simple/linux
+
+  palette: 
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: amber
+      accent: deep orange
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: amber
+      accent: deep orange
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    # - navigation.sections
+    # - navigation.expand
+    - navigation.top
+
+markdown_extensions:
+  - pymdownx.highlight:
+      use_pygments: true
+      auto_title: true
+      linenums: true
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.keys
+  - pymdownx.smartsymbols
+
+nav:
+  - Home: index.md
+  - Coreutils: coreutils.md
