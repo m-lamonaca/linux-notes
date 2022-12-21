@@ -59,3 +59,5 @@ nav:
   - Home: index.md
   - Coreutils: coreutils.md
   - Terminal Keybinds: terminal-keybinds.md
+  - Exit Codes: exit-codes.md
+  - Signals: signals.md
