@@ -10,14 +10,14 @@
         <meta name="author" content="Marcello Lamonaca">
       
       
-        <link rel="canonical" href="http://m-lamonaca.github.io/linux-notes/terminal-keybinds/">
+        <link rel="canonical" href="http://m-lamonaca.github.io/linux-notes/exit-codes/">
       
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.9">
     
     
       
-        <title>Terminal Keybinds - Linux Notes</title>
+        <title>Exit Codes - Linux Notes</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#terminal-keybindings" class="md-skip">
+        <a href="#process-exit-codes" class="md-skip">
           Skip to content
         </a>
       
@@ -103,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Terminal Keybinds
+              Exit Codes
             
           </span>
         </div>
@@ -265,6 +265,21 @@
 
   
   
+  
+    <li class="md-nav__item">
+      <a href="../terminal-keybinds/" class="md-nav__link">
+        Terminal Keybinds
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
     
   
   
@@ -277,12 +292,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Terminal Keybinds
+          Exit Codes
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Terminal Keybinds
+        Exit Codes
       </a>
       
         
@@ -301,43 +316,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#moving" class="md-nav__link">
-    Moving
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#deleting" class="md-nav__link">
-    Deleting
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#copypaste" class="md-nav__link">
-    Copy/Paste
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#search-command-history" class="md-nav__link">
-    Search Command History
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#special-job-control" class="md-nav__link">
-    Special, Job Control
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ssh" class="md-nav__link">
-    SSH
+  <a href="#special-exit-codes" class="md-nav__link">
+    Special Exit Codes
   </a>
   
 </li>
@@ -346,21 +326,6 @@
   
 </nav>
       
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../exit-codes/" class="md-nav__link">
-        Exit Codes
-      </a>
     </li>
   
 
@@ -407,43 +372,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#moving" class="md-nav__link">
-    Moving
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#deleting" class="md-nav__link">
-    Deleting
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#copypaste" class="md-nav__link">
-    Copy/Paste
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#search-command-history" class="md-nav__link">
-    Search Command History
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#special-job-control" class="md-nav__link">
-    Special, Job Control
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ssh" class="md-nav__link">
-    SSH
+  <a href="#special-exit-codes" class="md-nav__link">
+    Special Exit Codes
   </a>
   
 </li>
@@ -462,51 +392,22 @@
                 
                   
 
-  <a href="https://github.com/blob/main/docs/terminal-keybinds.md" title="Edit this page" class="md-content__button md-icon">
+  <a href="https://github.com/blob/main/docs/exit-codes.md" title="Edit this page" class="md-content__button md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
   </a>
 
 
-<h1 id="terminal-keybindings">Terminal Keybindings</h1>
-<h2 id="moving">Moving</h2>
-<p><code>Ctrl + b</code>: backward a character<br />
-<code>Ctrl + f</code>: forward a character  </p>
-<p><code>Alt + b</code>,<code>Ctrl + left</code>: backward word<br />
-<code>Alt + f</code>, <code>Ctrl + right</code>: forward word  </p>
-<p><code>Ctrl + a</code>: move to beginning of line<br />
-<code>Ctrl + e</code>: move to end of line  </p>
-<p><code>Shift + PageUp</code>: page up the terminal screen<br />
-<code>Shift + PageDown</code>: page down the terminal screen<br />
-<code>Shift + Home</code>: move to top of the terminal screen<br />
-<code>Shift + End</code>: move to bottom of the terminal screen  </p>
-<h2 id="deleting">Deleting</h2>
-<p><code>Ctrl + h</code>: delete backward 1 char<br />
-<code>Ctrl + d</code>: delete forward 1 char  </p>
-<p><code>Alt + backspace</code>: delete word backward<br />
-<code>Alt + d</code>: delete word forward  </p>
-<p><code>Ctrl + u</code>: delete to beginning of line<br />
-<code>Ctrl + k</code>: delete to end of line  </p>
-<h2 id="copypaste">Copy/Paste</h2>
-<p><code>Ctrl + Shift + c</code>: copy<br />
-<code>Ctrl + Shift + v</code>: paste  </p>
-<h2 id="search-command-history">Search Command History</h2>
-<p><code>Ctrl + r</code>: interactive search backward command history. (can press it multiple times)<br />
-<code>Ctrl + s</code>: search forward command history<br />
-<code>Ctrl + c</code>: exit search<br />
-<code>Esc</code>: exit search with current choice<br />
-<code>Up</code>: previous command<br />
-<code>Down</code>: next command (after pressing <code>Up</code>)<br />
-<code>Alt + .</code>: Cycle through previous last command arguments  </p>
-<h2 id="special-job-control">Special, Job Control</h2>
-<p><code>Ctrl + l</code>: clear screen (must be first input to prompt)<br />
-<code>Ctrl + d</code>: exit shell (must be first input to prompt)<br />
-<code>Ctrl + c</code>: terminate current foreground process (<code>SIGINT</code>)<br />
-<code>Ctrl + z</code>: suspend current foreground process (<code>SIGTSTP</code>)<br />
-<code>Ctrl + \</code>, <code>Ctrl + y</code>: forcefully terminate processa and dump core (<code>SIGQUIT</code>)  </p>
-<h2 id="ssh">SSH</h2>
-<p><code>~ + .</code>  ⇒ Disconnect<br />
-<code>~ + ?</code>  ⇒ Show list of escape characters  </p>
+<h1 id="process-exit-codes">Process Exit Codes</h1>
+<p>When a process terminates it returns an <strong>exit code</strong> (an integer number) to indicate whether the operation was successful or not.<br />
+Generally an exit code of <code>0</code> (zero) indicates success while any other integer means some kind of faliure.</p>
+<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="nb">echo</span> <span class="nv">$?</span>  <span class="c1"># output last exit code</span>
+</code></pre></div></td></tr></table></div>
+<h2 id="special-exit-codes">Special Exit Codes</h2>
+<ul>
+<li><code>127</code>: command not found (bash)</li>
+<li><code>137</code>: process was killed (128 + n, n signal number)</li>
+</ul>
 
 
 
@@ -532,7 +433,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../coreutils/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Coreutils" rel="prev">
+        <a href="../terminal-keybinds/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Terminal Keybinds" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -541,20 +442,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Coreutils
+              Terminal Keybinds
             </div>
           </div>
         </a>
       
       
         
-        <a href="../exit-codes/" class="md-footer__link md-footer__link--next" aria-label="Next: Exit Codes" rel="next">
+        <a href="../signals/" class="md-footer__link md-footer__link--next" aria-label="Next: Signals" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Exit Codes
+              Signals
             </div>
           </div>
           <div class="md-footer__button md-icon">
