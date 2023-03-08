@@ -57,6 +57,8 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Filesystem:
+    - File Links: filesystem/file-links.md
   - Coreutils: coreutils.md
   - Terminal Keybinds: terminal-keybinds.md
   - Exit Codes: exit-codes.md
