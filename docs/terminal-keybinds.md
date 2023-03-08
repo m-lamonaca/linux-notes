@@ -20,7 +20,7 @@
 
 `Ctrl + h`: delete backward 1 char  
 `Ctrl + d`: delete forward 1 char  
- 
+
 `Alt + backspace`: delete word backward  
 `Alt + d`: delete word forward  
 
