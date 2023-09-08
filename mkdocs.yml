@@ -64,6 +64,9 @@ nav:
   - Home: index.md
   - Filesystem:
     - File Links: filesystem/file-links.md
+  - System Init:
+    - Systemd: init/systemd.md
+    - OpenRC: init/open-rc.md
   - Coreutils: coreutils.md
   - Terminal Keybinds: terminal-keybinds.md
   - Exit Codes: exit-codes.md
