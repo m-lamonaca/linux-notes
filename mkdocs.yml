@@ -38,10 +38,15 @@ theme:
 
   features:
     - navigation.instant
+    - navigation.indexes
     - navigation.tracking
-    # - navigation.sections
-    # - navigation.expand
+    - navigation.pruning
+    - navigation.sections
     - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.footer
+    - toc.follow
 
 markdown_extensions:
   - pymdownx.highlight:
