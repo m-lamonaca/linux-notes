@@ -69,7 +69,3 @@ nav:
   - System Init:
     - Systemd: init/systemd.md
     - OpenRC: init/open-rc.md
-  - Coreutils: coreutils.md
-  - Terminal Keybinds: terminal-keybinds.md
-  - Exit Codes: exit-codes.md
-  - Signals: signals.md
