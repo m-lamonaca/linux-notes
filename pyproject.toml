@@ -10,7 +10,7 @@ readme = "README.md"
 python = "^3.10"
 mkdocs = "^1.5.1"
 mkdocs-material = "^9.5.9"
-pillow = "^10.3.0"
+pillow = "^10.4.0"
 cairosvg = "^2.7.1"
 
 [build-system]
