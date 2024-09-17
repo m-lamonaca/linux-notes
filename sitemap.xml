@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>http://m-lamonaca.github.io/linux-notes/index.html</loc>
+         <lastmod>2024-09-17</lastmod>
+    </url>
+    <url>
+         <loc>http://m-lamonaca.github.io/linux-notes/containers/cgroups.html</loc>
+         <lastmod>2024-09-17</lastmod>
+    </url>
+    <url>
+         <loc>http://m-lamonaca.github.io/linux-notes/filesystem/file-links.html</loc>
+         <lastmod>2024-09-17</lastmod>
+    </url>
+    <url>
+         <loc>http://m-lamonaca.github.io/linux-notes/filesystem/procfs.html</loc>
+         <lastmod>2024-09-17</lastmod>
+    </url>
+    <url>
+         <loc>http://m-lamonaca.github.io/linux-notes/filesystem/sysfs.html</loc>
+         <lastmod>2024-09-17</lastmod>
+    </url>
+    <url>
+         <loc>http://m-lamonaca.github.io/linux-notes/init/open-rc.html</loc>
+         <lastmod>2024-09-17</lastmod>
+    </url>
+    <url>
+         <loc>http://m-lamonaca.github.io/linux-notes/init/systemd.html</loc>
+         <lastmod>2024-09-17</lastmod>
+    </url>
+</urlset>
